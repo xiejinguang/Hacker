@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hacker.ConfigStageController">
+<children><Label layoutX="62.0" layoutY="35.0" text="code：" /><Label layoutX="66.0" layoutY="123.0" text="模式:" /><Label layoutX="51.0" layoutY="78.0" text="adapter：" /><TextField fx:id="codeField" layoutX="105.0" layoutY="31.0" promptText="告警码" /><CheckBox fx:id="time" layoutX="120.0" layoutY="77.0" mnemonicParsing="false" text="time" /><CheckBox fx:id="area_grade" layoutX="186.0" layoutY="78.0" mnemonicParsing="false" text="area_grade" /><CheckBox fx:id="bd" layoutX="120.0" layoutY="122.0" mnemonicParsing="false" text="bd" /><CheckBox fx:id="bdAll" layoutX="186.0" layoutY="122.0" mnemonicParsing="false" text="bdAll" /><Button layoutX="96.0" layoutY="189.0" mnemonicParsing="false" onAction="#sendcfg" text="下发设置" /><Button layoutX="206.0" layoutY="189.0" mnemonicParsing="false" onAction="#clearcfg" text="清除设置" /><Label layoutX="344.0" layoutY="35.0" text="IP地址：" /><Label layoutX="349.0" layoutY="79.0" text="端口：" /><TextField fx:id="ipAddress" layoutX="400.734375" layoutY="31.0" /><TextField fx:id="port" layoutX="401.0" layoutY="75.0" prefHeight="23.0" prefWidth="57.0" />
+</children></AnchorPane>
